@@ -1,0 +1,18 @@
+# Cache files
+.eslintcache
+.npm
+*.tsbuildinfo
+# Directories
+dist/
+node_modules/
+.idea/
+# Env files      # A good safeguard against accidentally publishing
+.env.
+.env.test
+# Logs
+*.log
+logs
+npm-debug.log*
+# Misc files
+.DS_Store
+notes.md

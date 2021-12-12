@@ -1,0 +1,25 @@
+{
+  "name": "palidate.js",
+  "version": "0.0.1",
+  "description": "Persian validations and util functions",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsc --noEmit",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashkanahrabi/palidate.js.git"
+  },
+  "author": "Ashkan Ahrabi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashkanahrabi/palidate.js/issues"
+  },
+  "homepage": "https://github.com/ashkanahrabi/palidate.js#readme",
+  "dependencies": {
+    "typescript": "^4.5.3"
+  }
+}
