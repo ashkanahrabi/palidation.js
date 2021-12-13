@@ -1,5 +1,6 @@
-import {toPersianDigits} from "./utils/convertNums/toPersian";
+import {ConvertNums} from "./utils/convertNums";
 
-console.log(toPersianDigits("1231"));
+console.log(ConvertNums.toPersian("1230"));
+console.log(ConvertNums.toEnglish("۱۲۳"));
 
-export {toPersianDigits};
+export {ConvertNums};
