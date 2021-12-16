@@ -1,0 +1,1 @@
+export {isNationalCode} from './isNationalCode';
