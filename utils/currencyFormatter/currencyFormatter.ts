@@ -1,4 +1,5 @@
-// TODO fix bugs of this formatter with Persian number support 
+import {ConvertNums} from "../convertNums";
 export const format = (value: string): string => {
-    return value.replace(/\D/g, "").replace(/\B(?=(\d{3})+(?!\d))/g, ",")
+    value = ConvertNums.toEnglish(value);
+    return ConvertNums.toPersian(value.replace(/\D/g, "").replace(/\B(?=(\d{3})+(?!\d))/g, ","))
 };
