@@ -1,0 +1,1 @@
+export {isNumeric} from './isNumeric';
