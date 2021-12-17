@@ -3,11 +3,10 @@
   "version": "0.0.2",
   "description": "Persian validations and util functions",
   "main": "index.ts",
-  "type": "module",
   "scripts": {
-    "start": "tsc && node --es-module-specifier-resolution=node dist/index.js",
+    "start": "tsc && node dist/index.js",
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,5 +20,10 @@
   "homepage": "https://github.com/ashkanahrabi/palidate.js#readme",
   "dependencies": {
     "typescript": "^4.5.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.5",
+    "ts-jest": "^27.1.2"
   }
 }
