@@ -1,6 +1,6 @@
 {
   "name": "palidate.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Persian validations and util functions",
   "main": "index.ts",
   "scripts": {
