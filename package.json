@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ashkanahrabi/palidate.js.git"
+    "url": "git+https://github.com/ashkanahrabi/palidation.js.git"
   },
   "author": "Ashkan Ahrabi",
   "keywords": [
@@ -32,9 +32,9 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ashkanahrabi/palidate.js/issues"
+    "url": "https://github.com/ashkanahrabi/palidation.js/issues"
   },
-  "homepage": "https://github.com/ashkanahrabi/palidate.js#readme",
+  "homepage": "https://github.com/ashkanahrabi/palidation.js#readme",
   "devDependencies": {
     "typescript": "^4.5.3",
     "@types/jest": "^27.0.3",
