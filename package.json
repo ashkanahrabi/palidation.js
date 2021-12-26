@@ -1,28 +1,35 @@
 {
   "name": "palidation.js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Persian validations and util functions",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "start": "tsc && node dist/index.js",
     "build": "tsc",
     "test": "jest --config jestconfig.json",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
-    "prepare" : "npm run build",
-    "prepublishOnly" : "npm test && npm run lint",
-    "preversion" : "npm run lint",
-    "version" : "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ashkanahrabi/palidate.js.git"
   },
   "author": "Ashkan Ahrabi",
-  "keywords": ["Validation", "Persian", "Persian Validation", "Farsi Validation"],
+  "keywords": [
+    "Validation",
+    "Persian",
+    "Persian Validation",
+    "Farsi Validation"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ashkanahrabi/palidate.js/issues"
