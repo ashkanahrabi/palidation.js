@@ -1,5 +1,5 @@
 {
-  "name": "palidate.js",
+  "name": "palidation.js",
   "version": "0.0.3",
   "description": "Persian validations and util functions",
   "main": "lib/index.js",
@@ -28,10 +28,8 @@
     "url": "https://github.com/ashkanahrabi/palidate.js/issues"
   },
   "homepage": "https://github.com/ashkanahrabi/palidate.js#readme",
-  "dependencies": {
-    "typescript": "^4.5.3"
-  },
   "devDependencies": {
+    "typescript": "^4.5.3",
     "@types/jest": "^27.0.3",
     "jest": "^27.4.5",
     "prettier": "^2.5.1",
