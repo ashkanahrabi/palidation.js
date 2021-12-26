@@ -1,12 +1,12 @@
-import {toPersian} from './toPersian';
-import {toEnglish} from './toEnglish';
+import { toPersian } from './toPersian';
+import { toEnglish } from './toEnglish';
 
-interface ConvertNums{
-    toPersian: Function,
-    toEnglish: Function
+interface ConvertNums {
+  toPersian: (value: string) => string;
+  toEnglish: (value: string) => string;
 }
 
 export const ConvertNums: ConvertNums = {
-    toPersian,
-    toEnglish
-}
+  toPersian,
+  toEnglish,
+};

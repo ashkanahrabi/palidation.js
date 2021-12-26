@@ -1,1 +1,1 @@
-export {isNumeric} from './isNumeric';
+export { isNumeric } from './isNumeric';

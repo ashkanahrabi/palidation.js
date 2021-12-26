@@ -1,1 +1,1 @@
-export {isNationalCode} from './isNationalCode';
+export { isNationalCode } from './isNationalCode';

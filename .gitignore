@@ -3,7 +3,7 @@
 .npm
 *.tsbuildinfo
 # Directories
-dist/
+lib/
 node_modules/
 .idea/
 # Env files      # A good safeguard against accidentally publishing
