@@ -6,7 +6,9 @@
 lib/
 node_modules/
 .idea/
+coverage/
 # Env files      # A good safeguard against accidentally publishing
+.env
 .env.
 .env.test
 # Logs
