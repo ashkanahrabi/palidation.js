@@ -11,10 +11,11 @@
     "start": "tsc && node dist/index.js",
     "build": "tsc",
     "test": "jest --config jestconfig.json",
+    "posttest": "./codecov -t $(grep CODECOV_TOKEN .env | cut -d '=' -f2)",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
-    "prepublishOnly": "npm test && ./codecov -t $(grep CODECOV_TOKEN .env | cut -d '=' -f2) && npm run lint",
+    "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
