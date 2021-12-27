@@ -1,4 +1,4 @@
-import { ConvertNums } from "../../../src/utils/convertNums";
+import { ConvertNums } from '../../../src';
 
 describe("test toPersian util function", () => {
     it("should accept strings", () => {

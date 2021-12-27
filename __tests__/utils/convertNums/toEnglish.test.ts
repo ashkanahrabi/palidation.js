@@ -1,4 +1,4 @@
-import { ConvertNums } from "../../../src/utils/convertNums";
+import { ConvertNums } from '../../../src';
 
 describe("test toEnglish util function", () => {
     it("should accept strings", () => {
