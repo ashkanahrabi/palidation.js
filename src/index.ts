@@ -1,3 +1,3 @@
-export { ConvertNums } from './utils/convertNums';
-export { CurrencyFormatter } from './utils/currencyFormatter';
-export { Validations } from './validations';
+export { ConvertNums } from './utils';
+export { CurrencyFormatter } from './utils';
+export { Validation } from './validations';
