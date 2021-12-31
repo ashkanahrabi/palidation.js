@@ -8,6 +8,7 @@ import { format as formatter } from './currencyFormatter';
  * import { CurrencyFormatter } from "palidation.js";
  * ```
  */
+// tslint:disable-next-line
 export namespace CurrencyFormatter{
 
   /**

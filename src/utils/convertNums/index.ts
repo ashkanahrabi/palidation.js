@@ -9,6 +9,7 @@ import { toEnglish as toEnglishDigits } from './toEnglish';
  * import { ConvertNums } from "palidation.js";
  * ```
  */
+// tslint:disable-next-line
 export namespace ConvertNums {
   /**
    * use toPersianDigits method to convert English digits to Persian

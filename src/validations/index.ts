@@ -10,6 +10,7 @@ import { isMobile as mobile } from './isMobile';
  * import { Validation } from "palidation.js";
  * ```
  */
+// tslint:disable-next-line
 export namespace Validation {
   /**
    * use this method to validate whether the string is an Iranian National Code or not
