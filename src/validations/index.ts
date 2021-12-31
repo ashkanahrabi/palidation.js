@@ -17,9 +17,9 @@ export namespace Validation {
    *
    * @param value the parameter is a string of digits
    * @return
-   * 
+   *
    * `true` if the value is an Iranian National Code
-   * 
+   *
    * `false` if the value is **NOT** an Iranian National Code
    *
    * @example
@@ -31,7 +31,7 @@ export namespace Validation {
    * console.log(Validation.isNationalCode(falsyInput));
    * // Output: false
    * ```
-   * 
+   *
    * @example
    * ```
    * import { Validation } from "palidation.js";
@@ -72,7 +72,7 @@ export namespace Validation {
    *
    * console.log(Validation.isNumeric(falsyInput));
    * // Output: false
-   * 
+   *
    * let falsyPersianInput = 'سلام دنیای شماره ۱۲۳!';
    *
    * console.log(Validation.isNumeric(falsyPersianInput));
@@ -87,7 +87,7 @@ export namespace Validation {
    *
    * console.log(Validation.isNumeric(truthyInput));
    * // Output: true
-   * 
+   *
    * let truthyPersianInput = '۱۲۳';
    *
    * console.log(Validation.isNumeric(truthyPersianInput));
@@ -138,4 +138,3 @@ export namespace Validation {
    */
   export const isMobile = mobile;
 }
-

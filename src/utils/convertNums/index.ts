@@ -13,28 +13,27 @@ import { toEnglish as toEnglishDigits } from './toEnglish';
 export namespace ConvertNums {
   /**
    * use toPersianDigits method to convert English digits to Persian
-   * 
+   *
    * @param value the parameter can contain any string values
    * @return the original string with its digits converted to Persian
    *
    * @example
    * ```
    * import { ConvertNums } from "palidation.js";
-   * 
-   * let input = 'تعداد: 17 عدد'; //Any string (containing English digits) 
-   * 
+   *
+   * let input = 'تعداد: 17 عدد'; //Any string (containing English digits)
+   *
    * console.log(ConvertNums.toPersian(input));
    * // Output: 'تعداد: ۱۷ عدد'
    * ```
    */
   export const toPersian = toPersianDigits;
-  
-  
+
   /**
    * use toEnglishDigits method to convert Persian digits to English
-   * 
+   *
    * > *e.g: when you want to fetch Farsi input values*
-   * 
+   *
    * @param value the parameter can contain any string values
    * @return the original string with its digits converted to English
    *

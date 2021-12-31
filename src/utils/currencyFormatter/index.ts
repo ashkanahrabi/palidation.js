@@ -9,8 +9,7 @@ import { format as formatter } from './currencyFormatter';
  * ```
  */
 // tslint:disable-next-line
-export namespace CurrencyFormatter{
-
+export namespace CurrencyFormatter {
   /**
    * this method will find digits through a sting and returns a currency-formatted string with Persian digits
    *
