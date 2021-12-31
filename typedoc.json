@@ -1,0 +1,8 @@
+{
+  "entryPoints": [
+    "./src/index.ts"
+  ],
+  "sort": ["source-order"],
+  "excludeNotDocumented": true,
+  "out": "./docs"
+}
