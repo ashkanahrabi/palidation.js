@@ -35,7 +35,7 @@
   "bugs": {
     "url": "https://github.com/ashkanahrabi/palidation.js/issues"
   },
-  "homepage": "https://github.com/ashkanahrabi/palidation.js#readme",
+  "homepage": "https://ashkanahrabi.github.io/palidation.js/",
   "devDependencies": {
     "@types/jest": "^27.0.3",
     "codecov": "^3.8.3",
