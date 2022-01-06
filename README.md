@@ -18,7 +18,7 @@ npm install palidation.js@latest
 
 Simply import different functions from Palidation.js like:
 
-```ecmascript 6
+```js
 import { ConvertNums } from "palidation.js";
 
 let input = 'تعداد: 17 عدد'; //Any string (containing English digits)
