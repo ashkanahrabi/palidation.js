@@ -3,10 +3,32 @@
   <h1>Palidation.js</h1>
 </a>
 <p>
-    <img src="https://img.shields.io/badge/dynamic/json?style=flat-square&color=informational&label=palidation.js&prefix=v&query=version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fashkanahrabi%2Fpalidation.js%2Fmaster%2Fpackage.json" alt="version"/>
+<img src="https://img.shields.io/badge/dynamic/json?style=flat-square&color=informational&label=palidation.js&prefix=v&query=version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fashkanahrabi%2Fpalidation.js%2Fmaster%2Fpackage.json" alt="version"/>
 <img alt="Codecov" src="https://img.shields.io/codecov/c/github/ashkanahrabi/palidation.js?label=test-covarage&style=flat-square">
 </p>
 
 <p>Palidation.js provides a declarative way of Farsi (Persian) Validations and util Functions.</p>
+
+<a href="#installation" id="installation" style="color: inherit; text-decoration: none;">
+  <h3>Installation</h3>
+</a>
+<p>To use as package dependency, install Palidation.js with the following command:</p>
+<pre><code><span class="hl-0">npm</span><span class="hl-1"> </span><span class="hl-0">install</span><span class="hl-1"> </span><span class="hl-0">palidation</span><span class="hl-1">.</span><span class="hl-0">js</span><span class="hl-1">@</span><span class="hl-0">latest</span>
+</code></pre>
+
+<a href="#basic-usage" id="basic-usage" style="color: inherit; text-decoration: none;">
+  <h3>Basic Usage</h3>
+</a>
+<p>Simply import different functions from Palidation.js like:</p>
+<pre><code class="language-js"><span class="hl-2">import</span><span class="hl-1"> { </span><span class="hl-0">ConvertNums</span><span class="hl-1"> } </span><span class="hl-2">from</span><span class="hl-1"> </span><span class="hl-3">&quot;palidation.js&quot;</span><span class="hl-1">;</span><br/><br/><span class="hl-4">let</span><span class="hl-1"> </span><span class="hl-0">input</span><span class="hl-1"> = </span><span class="hl-3">&#39;تعداد: 17 عدد&#39;</span><span class="hl-1">; </span><span class="hl-5">//Any string (containing English digits)</span><br/><br/><span class="hl-0">console</span><span class="hl-1">.</span><span class="hl-6">log</span><span class="hl-1">(</span><span class="hl-0">ConvertNums</span><span class="hl-1">.</span><span class="hl-6">toPersian</span><span class="hl-1">(</span><span class="hl-0">input</span><span class="hl-1">));</span><br/><span class="hl-5">// Output: &#39;تعداد: ۱۷ عدد&#39;</span>
+</code></pre>
+
+<a href="#full-documents" id="full-documents" style="color: inherit; text-decoration: none;">
+  <h3>Full Documents</h3>
+</a>
+<p>To see full documents and all the functions, visit the <a href="https://ashkanahrabi.github.io/palidation.js/">Doc Page</a></p>
+<br/>
+
+<hr>
 <p>For issues and feature requests visit the <a href="https://github.com/ashkanahrabi/palidation.js/issues">issue tracker</a>.</p>
 </div></div><div class="col-4 col-menu menu-sticky-wrap menu-highlight"><nav class="tsd-navigation primary"><ul><li class="current"><a href="modules.html">Exports</a></li><li class=" tsd-kind-namespace"><a href="modules/ConvertNums.html">Convert<wbr/>Nums</a></li><li class=" tsd-kind-namespace"><a href="modules/CurrencyFormatter.html">Currency<wbr/>Formatter</a></li><li class=" tsd-kind-namespace"><a href="modules/Validation.html">Validation</a></li></ul></nav><nav class="tsd-navigation secondary menu-sticky"><ul></ul></nav></div></div></div><footer class="with-border-bottom"><div class="container"><h2>Settings</h2><p>Theme <select id="theme"><option value="os">OS</option><option value="light">Light</option><option value="dark">Dark</option></select></p></div></footer><div class="container tsd-generator"><p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p></div><div class="overlay"></div><script src="assets/main.js"></script></body></html>
